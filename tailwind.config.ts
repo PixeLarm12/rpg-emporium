@@ -57,6 +57,29 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        gold: "hsl(var(--gold))",
+        "gold-glow": "hsl(var(--gold-glow))",
+        silver: "hsl(var(--silver))",
+        copper: "hsl(var(--copper))",
+        platinum: "hsl(var(--platinum))",
+        wood: {
+          DEFAULT: "hsl(var(--wood))",
+          dark: "hsl(var(--wood-dark))",
+        },
+      },
+      fontFamily: {
+        display: ['Cinzel', 'serif'],
+        body: ['Cormorant Garamond', 'serif'],
+      },
+      backgroundImage: {
+        'gradient-parchment': 'var(--gradient-parchment)',
+        'gradient-wood': 'var(--gradient-wood)',
+        'gradient-gold': 'var(--gradient-gold)',
+      },
+      boxShadow: {
+        parchment: 'var(--shadow-parchment)',
+        gold: 'var(--shadow-gold)',
+        deep: 'var(--shadow-deep)',
       },
       borderRadius: {
         lg: "var(--radius)",
