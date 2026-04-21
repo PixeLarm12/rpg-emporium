@@ -6,8 +6,7 @@ export type Category = {
 
 export type Item = {
   id: number;
-  title_en: string;
-  title_pt: string;
+  title: string;
   price: number; // in gold
   categories: number[];
   damage?: string;
@@ -15,6 +14,5 @@ export type Item = {
   durability?: number;
   heal?: string;
   effect?: string;
-  description_en: string;
-  description_pt: string;
+  description: string;
 };

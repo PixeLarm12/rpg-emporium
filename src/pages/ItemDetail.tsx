@@ -1,13 +1,16 @@
 import { Link, useParams } from "react-router-dom";
-import data from "@/data/items.json";
+import categoriesData from "@/data/categories.json";
+import itemsDataEn from "@/data/items_en.json";
+import itemsDataPtbr from "@/data/items_ptbr.json";
 import type { Item, Category } from "@/types";
 import Header from "@/components/Header";
 import PriceTag from "@/components/PriceTag";
 import { AppProvider, useApp } from "@/context/AppContext";
 import { tr } from "@/utils/i18n";
 
-const items = data.items as Item[];
-const categories = data.categories as Category[];
+const itemsPtbr = itemsDataPtbr.items as Item[];
+const itemsEn = itemsDataEn.items as Item[];
+const categories = categoriesData.categories as Category[];
 
 function StatRow({ label, value }: { label: string; value: string | number }) {
   return (
@@ -23,6 +26,9 @@ function StatRow({ label, value }: { label: string; value: string | number }) {
 function DetailInner() {
   const { id } = useParams();
   const { lang } = useApp();
+
+  const items = lang === "pt" ? itemsPtbr : itemsEn;
+
   const item = items.find((i) => i.id === parseInt(id));
 
   if (!item) {
@@ -39,8 +45,8 @@ function DetailInner() {
     );
   }
 
-  const title = lang === "pt" ? item.title_pt : item.title_en;
-  const description = lang === "pt" ? item.description_pt : item.description_en;
+  const title = item.title;
+  const description = item.description;
   const cats = categories.filter((c) => item.categories.includes(c.id));
 
   return (

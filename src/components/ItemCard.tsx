@@ -5,8 +5,8 @@ import PriceTag from "./PriceTag";
 
 export default function ItemCard({ item, categories }: { item: Item; categories: Category[] }) {
   const { lang } = useApp();
-  const title = lang === "pt" ? item.title_pt : item.title_en;
-  const description = lang === "pt" ? item.description_pt : item.description_en;
+  const title = item.title;
+  const description = item.description;
   const cats = categories.filter((c) => item.categories.includes(c.id));
 
   return (

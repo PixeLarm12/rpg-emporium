@@ -1,0 +1,657 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Closed copper helmet",
+      "price": 20,
+      "categories": [
+        1,
+        2
+      ],
+      "defense": 1,
+      "durability": 2,
+      "description": "A basic copper helmet offering minimal protection."
+    },
+    {
+      "id": 2,
+      "title": "Partial iron helmet",
+      "price": 30,
+      "categories": [
+        1,
+        2
+      ],
+      "defense": 1,
+      "durability": 3,
+      "description": "An iron helmet that protects key areas of the head."
+    },
+    {
+      "id": 3,
+      "title": "Closed iron helmet",
+      "price": 50,
+      "categories": [
+        1,
+        2
+      ],
+      "defense": 2,
+      "durability": 4,
+      "description": "A fully enclosed iron helmet with solid protection."
+    },
+    {
+      "id": 4,
+      "title": "Closed gold helmet",
+      "price": 90,
+      "categories": [
+        1,
+        2
+      ],
+      "defense": 2,
+      "durability": 3,
+      "description": "A luxurious helmet made of gold, more stylish than practical."
+    },
+    {
+      "id": 5,
+      "title": "Leather chest armor",
+      "price": 15,
+      "categories": [
+        1,
+        3
+      ],
+      "defense": 1,
+      "durability": 2,
+      "description": "Light armor allowing flexibility and basic protection."
+    },
+    {
+      "id": 6,
+      "title": "Chainmail chest",
+      "price": 60,
+      "categories": [
+        1,
+        3
+      ],
+      "defense": 2,
+      "durability": 5,
+      "description": "Interlocked rings offering reliable defense."
+    },
+    {
+      "id": 7,
+      "title": "Iron chestplate",
+      "price": 220,
+      "categories": [
+        1,
+        3
+      ],
+      "defense": 4,
+      "durability": 8,
+      "description": "Heavy armor built for direct combat."
+    },
+    {
+      "id": 8,
+      "title": "Reinforced leather pants",
+      "price": 40,
+      "categories": [
+        1,
+        4
+      ],
+      "defense": 1,
+      "durability": 2,
+      "description": "Reinforced pants for extra durability."
+    },
+    {
+      "id": 9,
+      "title": "Chainmail pants",
+      "price": 70,
+      "categories": [
+        1,
+        4
+      ],
+      "defense": 2,
+      "durability": 4,
+      "description": "Metal-linked pants offering protection and flexibility."
+    },
+    {
+      "id": 10,
+      "title": "Iron pants",
+      "price": 150,
+      "categories": [
+        1,
+        4
+      ],
+      "defense": 3,
+      "durability": 5,
+      "description": "Heavy iron leggings with strong defense."
+    },
+    {
+      "id": 11,
+      "title": "Copper boots",
+      "price": 30,
+      "categories": [
+        1,
+        5
+      ],
+      "defense": 1,
+      "durability": 3,
+      "description": "Simple boots offering minor protection."
+    },
+    {
+      "id": 12,
+      "title": "Knight boots",
+      "price": 120,
+      "categories": [
+        1,
+        5
+      ],
+      "defense": 2,
+      "durability": 6,
+      "description": "Durable boots used by trained knights."
+    },
+    {
+      "id": 13,
+      "title": "Small wooden shield",
+      "price": 70,
+      "categories": [
+        1,
+        6,
+        7
+      ],
+      "defense": 1,
+      "durability": 2,
+      "description": "A light shield for quick defensive maneuvers."
+    },
+    {
+      "id": 14,
+      "title": "Small iron shield",
+      "price": 120,
+      "categories": [
+        1,
+        6,
+        7
+      ],
+      "defense": 2,
+      "durability": 5,
+      "description": "Compact shield with decent resistance."
+    },
+    {
+      "id": 15,
+      "title": "Large iron shield",
+      "price": 280,
+      "categories": [
+        1,
+        6,
+        8
+      ],
+      "defense": 5,
+      "durability": 8,
+      "description": "Heavy shield providing excellent coverage."
+    },
+    {
+      "id": 16,
+      "title": "Dagger",
+      "price": 50,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "1d6",
+      "description": "A quick and light blade for close combat."
+    },
+    {
+      "id": 17,
+      "title": "Short sword",
+      "price": 100,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "2d4",
+      "description": "A balanced weapon for swift strikes."
+    },
+    {
+      "id": 18,
+      "title": "Long sword",
+      "price": 180,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "2d6+2",
+      "description": "A longer blade with increased reach and power."
+    },
+    {
+      "id": 19,
+      "title": "Battle axe",
+      "price": 250,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "3d6",
+      "description": "A brutal weapon capable of cleaving armor."
+    },
+    {
+      "id": 20,
+      "title": "War hammer",
+      "price": 300,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "3d8",
+      "description": "A crushing weapon designed to smash defenses."
+    },
+    {
+      "id": 21,
+      "title": "Short bow",
+      "price": 50,
+      "categories": [
+        8,
+        10,
+        11
+      ],
+      "range": 6,
+      "damage": "1d6",
+      "description": "A compact bow for quick shots."
+    },
+    {
+      "id": 22,
+      "title": "Long bow",
+      "price": 90,
+      "categories": [
+        8,
+        10,
+        11
+      ],
+      "range": 8,
+      "damage": "1d8+2",
+      "description": "A precise bow with long-range capability."
+    },
+    {
+      "id": 23,
+      "title": "Heavy crossbow",
+      "price": 150,
+      "categories": [
+        8,
+        10,
+        11
+      ],
+      "range": 10,
+      "damage": "2d8",
+      "description": "A powerful ranged weapon with high impact."
+    },
+    {
+      "id": 24,
+      "title": "Gunpowder pistol",
+      "price": 900,
+      "categories": [
+        7,
+        10,
+        11
+      ],
+      "range": 8,
+      "damage": "3d6",
+      "description": "An early firearm with explosive force."
+    },
+    {
+      "id": 25,
+      "title": "Arrows (30x)",
+      "price": 15,
+      "categories": [
+        12
+      ],
+      "description": "A bundle of arrows for ranged weapons."
+    },
+    {
+      "id": 26,
+      "title": "Bolts (30x)",
+      "price": 20,
+      "categories": [
+        12
+      ],
+      "description": "Ammunition used for crossbows."
+    },
+    {
+      "id": 27,
+      "title": "Health potion",
+      "price": 50,
+      "categories": [
+        16
+      ],
+      "heal": "2d4+2",
+      "description": "Restores a moderate amount of health."
+    },
+    {
+      "id": 28,
+      "title": "Rope",
+      "price": 10,
+      "categories": [
+        14
+      ],
+      "description": "Useful for climbing and securing objects."
+    },
+    {
+      "id": 29,
+      "title": "Torch",
+      "price": 2,
+      "categories": [
+        14
+      ],
+      "description": "Provides light in dark environments."
+    },
+    {
+      "id": 30,
+      "title": "Backpack",
+      "price": 15,
+      "categories": [
+        14
+      ],
+      "description": "Used to carry equipment and supplies."
+    },
+    {
+      "id": 31,
+      "title": "Ring of Life",
+      "price": 300,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+3 max HP",
+      "description": "Enhances the wearer's vitality."
+    },
+    {
+      "id": 32,
+      "title": "Ring of Mana",
+      "price": 300,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+3 max MP",
+      "description": "Boosts magical energy capacity."
+    },
+    {
+      "id": 33,
+      "title": "Ring of Damage",
+      "price": 400,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1d4 damage",
+      "description": "Increases offensive capabilities."
+    },
+    {
+      "id": 34,
+      "title": "Amulet of Knowledge",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 INT",
+      "description": "Grants enhanced intellect."
+    },
+    {
+      "id": 35,
+      "title": "Amulet of Berserker",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 STR",
+      "description": "Empowers physical strength."
+    },
+    {
+      "id": 36,
+      "title": "Amulet of Lynx",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 DEX",
+      "description": "Improves agility and reflexes."
+    },
+    {
+      "id": 37,
+      "title": "Amulet of Third Eye",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 PER",
+      "description": "Enhances perception and awareness."
+    },
+    {
+      "id": 38,
+      "title": "Divine Protection Bracelet",
+      "price": 400,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 RES",
+      "description": "Grants resistance to damage."
+    },
+    {
+      "id": 39,
+      "title": "Diplomat Ring",
+      "price": 300,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 CHA",
+      "description": "Improves charisma and persuasion."
+    },
+    {
+      "id": 40,
+      "title": "Infinite Quiver",
+      "price": 800,
+      "categories": [
+        13,
+        14
+      ],
+      "effect": "Infinite arrows",
+      "description": "A magical quiver that never runs out."
+    },
+    {
+      "id": 41,
+      "title": "Large quiver",
+      "price": 40,
+      "categories": [
+        14
+      ],
+      "effect": "Carry 60 arrows",
+      "description": "Stores a large number of arrows."
+    },
+    {
+      "id": 42,
+      "title": "Compass",
+      "price": 25,
+      "categories": [
+        14
+      ],
+      "description": "Helps determine direction."
+    },
+    {
+      "id": 43,
+      "title": "Waterskin",
+      "price": 10,
+      "categories": [
+        14
+      ],
+      "description": "Stores water for long journeys."
+    },
+    {
+      "id": 44,
+      "title": "Rope (15m)",
+      "price": 15,
+      "categories": [
+        14
+      ],
+      "description": "A longer rope for climbing or tying."
+    },
+    {
+      "id": 45,
+      "title": "Rations",
+      "price": 5,
+      "categories": [
+        14
+      ],
+      "description": "Food supplies for travel."
+    },
+    {
+      "id": 46,
+      "title": "Spyglass",
+      "price": 120,
+      "categories": [
+        14
+      ],
+      "description": "Allows distant observation."
+    },
+    {
+      "id": 47,
+      "title": "Lockpicks",
+      "price": 80,
+      "categories": [
+        14
+      ],
+      "description": "Used to open locked doors."
+    },
+    {
+      "id": 48,
+      "title": "Magnifying glass",
+      "price": 40,
+      "categories": [
+        14
+      ],
+      "description": "Helps inspect small details."
+    },
+    {
+      "id": 49,
+      "title": "Sleeping bag",
+      "price": 25,
+      "categories": [
+        14
+      ],
+      "description": "Provides rest during travel."
+    },
+    {
+      "id": 50,
+      "title": "Local map",
+      "price": 30,
+      "categories": [
+        14
+      ],
+      "description": "Shows nearby terrain and paths."
+    },
+    {
+      "id": 51,
+      "title": "Saddle",
+      "price": 100,
+      "categories": [
+        14
+      ],
+      "description": "Used to ride mounts comfortably."
+    },
+    {
+      "id": 52,
+      "title": "Small health potion",
+      "price": 30,
+      "categories": [
+        16
+      ],
+      "heal": "+3 HP (2 uses)",
+      "description": "A small healing potion with limited uses."
+    },
+    {
+      "id": 53,
+      "title": "Small mana potion",
+      "price": 30,
+      "categories": [
+        16
+      ],
+      "heal": "+3 MP (2 uses)",
+      "description": "Restores a small amount of mana."
+    },
+    {
+      "id": 54,
+      "title": "Medium health potion",
+      "price": 70,
+      "categories": [
+        16
+      ],
+      "heal": "+5 HP (3 uses)",
+      "description": "A reliable potion for healing."
+    },
+    {
+      "id": 55,
+      "title": "Medium mana potion",
+      "price": 70,
+      "categories": [
+        16
+      ],
+      "heal": "+5 MP (3 uses)",
+      "description": "Restores a moderate amount of mana."
+    },
+    {
+      "id": 56,
+      "title": "Large health potion",
+      "price": 120,
+      "categories": [
+        16
+      ],
+      "heal": "+10 HP (3 uses)",
+      "description": "A powerful potion restoring significant health."
+    },
+    {
+      "id": 57,
+      "title": "Large mana potion",
+      "price": 120,
+      "categories": [
+        16
+      ],
+      "heal": "+10 MP (3 uses)",
+      "description": "A strong potion restoring large mana."
+    },
+    {
+      "id": 58,
+      "title": "Antidote",
+      "price": 25,
+      "categories": [
+        16
+      ],
+      "description": "Cures poison effects."
+    },
+    {
+      "id": 59,
+      "title": "Bandage",
+      "price": 10,
+      "categories": [
+        16
+      ],
+      "heal": "+2 HP",
+      "description": "Provides minor healing."
+    },
+    {
+      "id": 60,
+      "title": "Fracture kit",
+      "price": 50,
+      "categories": [
+        16
+      ],
+      "description": "Used to treat broken bones."
+    }
+  ]
+}

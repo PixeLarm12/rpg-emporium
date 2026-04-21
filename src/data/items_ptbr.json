@@ -1,0 +1,657 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Elmo fechado de cobre",
+      "price": 20,
+      "categories": [
+        1,
+        2
+      ],
+      "defense": 1,
+      "durability": 2,
+      "description": "Um elmo simples de cobre que oferece proteção mínima."
+    },
+    {
+      "id": 2,
+      "title": "Elmo parcial de ferro",
+      "price": 30,
+      "categories": [
+        1,
+        2
+      ],
+      "defense": 1,
+      "durability": 3,
+      "description": "Um elmo de ferro que protege partes essenciais da cabeça."
+    },
+    {
+      "id": 3,
+      "title": "Elmo fechado de ferro",
+      "price": 50,
+      "categories": [
+        1,
+        2
+      ],
+      "defense": 2,
+      "durability": 4,
+      "description": "Um elmo de ferro totalmente fechado com boa proteção."
+    },
+    {
+      "id": 4,
+      "title": "Elmo fechado de ouro",
+      "price": 90,
+      "categories": [
+        1,
+        2
+      ],
+      "defense": 2,
+      "durability": 3,
+      "description": "Um elmo luxuoso feito de ouro, mais estiloso do que resistente."
+    },
+    {
+      "id": 5,
+      "title": "Corselete de couro",
+      "price": 15,
+      "categories": [
+        1,
+        3
+      ],
+      "defense": 1,
+      "durability": 2,
+      "description": "Armadura leve que permite mobilidade e proteção básica."
+    },
+    {
+      "id": 6,
+      "title": "Peitoral de anéis",
+      "price": 60,
+      "categories": [
+        1,
+        3
+      ],
+      "defense": 2,
+      "durability": 5,
+      "description": "Anéis interligados que oferecem defesa confiável."
+    },
+    {
+      "id": 7,
+      "title": "Peitoral de ferro",
+      "price": 220,
+      "categories": [
+        1,
+        3
+      ],
+      "defense": 4,
+      "durability": 8,
+      "description": "Armadura pesada feita para combate direto."
+    },
+    {
+      "id": 8,
+      "title": "Calça de couro reforçado",
+      "price": 40,
+      "categories": [
+        1,
+        4
+      ],
+      "defense": 1,
+      "durability": 2,
+      "description": "Calça reforçada para maior resistência."
+    },
+    {
+      "id": 9,
+      "title": "Calça de anéis",
+      "price": 70,
+      "categories": [
+        1,
+        4
+      ],
+      "defense": 2,
+      "durability": 4,
+      "description": "Calça de malha metálica com proteção e flexibilidade."
+    },
+    {
+      "id": 10,
+      "title": "Calça de ferro",
+      "price": 150,
+      "categories": [
+        1,
+        4
+      ],
+      "defense": 3,
+      "durability": 5,
+      "description": "Armadura pesada para pernas com alta defesa."
+    },
+    {
+      "id": 11,
+      "title": "Botas de cobre",
+      "price": 30,
+      "categories": [
+        1,
+        5
+      ],
+      "defense": 1,
+      "durability": 3,
+      "description": "Botas simples com proteção leve."
+    },
+    {
+      "id": 12,
+      "title": "Botas de cavaleiro",
+      "price": 120,
+      "categories": [
+        1,
+        5
+      ],
+      "defense": 2,
+      "durability": 6,
+      "description": "Botas resistentes usadas por cavaleiros."
+    },
+    {
+      "id": 13,
+      "title": "Escudo pequeno de madeira",
+      "price": 70,
+      "categories": [
+        1,
+        6,
+        7
+      ],
+      "defense": 1,
+      "durability": 2,
+      "description": "Um escudo leve para defesas rápidas."
+    },
+    {
+      "id": 14,
+      "title": "Escudo pequeno de ferro",
+      "price": 120,
+      "categories": [
+        1,
+        6,
+        7
+      ],
+      "defense": 2,
+      "durability": 5,
+      "description": "Escudo compacto com boa resistência."
+    },
+    {
+      "id": 15,
+      "title": "Escudo grande de ferro",
+      "price": 280,
+      "categories": [
+        1,
+        6,
+        8
+      ],
+      "defense": 5,
+      "durability": 8,
+      "description": "Escudo pesado que oferece excelente cobertura."
+    },
+    {
+      "id": 16,
+      "title": "Adaga",
+      "price": 50,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "1d6",
+      "description": "Uma lâmina leve e rápida para combate próximo."
+    },
+    {
+      "id": 17,
+      "title": "Espada curta",
+      "price": 100,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "2d4",
+      "description": "Uma arma equilibrada para ataques rápidos."
+    },
+    {
+      "id": 18,
+      "title": "Espada longa",
+      "price": 180,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "2d6+2",
+      "description": "Uma lâmina longa com maior alcance e poder."
+    },
+    {
+      "id": 19,
+      "title": "Machado de batalha",
+      "price": 250,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "3d6",
+      "description": "Uma arma brutal capaz de atravessar armaduras."
+    },
+    {
+      "id": 20,
+      "title": "Martelo de guerra",
+      "price": 300,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "3d8",
+      "description": "Uma arma de impacto feita para destruir defesas."
+    },
+    {
+      "id": 21,
+      "title": "Arco curto",
+      "price": 50,
+      "categories": [
+        8,
+        10,
+        11
+      ],
+      "range": 6,
+      "damage": "1d6",
+      "description": "Um arco compacto para disparos rápidos."
+    },
+    {
+      "id": 22,
+      "title": "Arco longo",
+      "price": 90,
+      "categories": [
+        8,
+        10,
+        11
+      ],
+      "range": 8,
+      "damage": "1d8+2",
+      "description": "Um arco preciso com grande alcance."
+    },
+    {
+      "id": 23,
+      "title": "Besta pesada",
+      "price": 150,
+      "categories": [
+        8,
+        10,
+        11
+      ],
+      "range": 10,
+      "damage": "2d8",
+      "description": "Uma arma à distância poderosa com alto impacto."
+    },
+    {
+      "id": 24,
+      "title": "Pistola de pólvora",
+      "price": 900,
+      "categories": [
+        7,
+        10,
+        11
+      ],
+      "range": 8,
+      "damage": "3d6",
+      "description": "Uma arma de fogo primitiva com força explosiva."
+    },
+    {
+      "id": 25,
+      "title": "Flechas (30x)",
+      "price": 15,
+      "categories": [
+        12
+      ],
+      "description": "Um conjunto de flechas para armas à distância."
+    },
+    {
+      "id": 26,
+      "title": "Virotes (30x)",
+      "price": 20,
+      "categories": [
+        12
+      ],
+      "description": "Munição usada em bestas."
+    },
+    {
+      "id": 27,
+      "title": "Poção de vida",
+      "price": 50,
+      "categories": [
+        16
+      ],
+      "heal": "2d4+2",
+      "description": "Restaura uma quantidade moderada de vida."
+    },
+    {
+      "id": 28,
+      "title": "Corda",
+      "price": 10,
+      "categories": [
+        14
+      ],
+      "description": "Útil para escalar e prender objetos."
+    },
+    {
+      "id": 29,
+      "title": "Tocha",
+      "price": 2,
+      "categories": [
+        14
+      ],
+      "description": "Fornece luz em ambientes escuros."
+    },
+    {
+      "id": 30,
+      "title": "Mochila",
+      "price": 15,
+      "categories": [
+        14
+      ],
+      "description": "Usada para carregar equipamentos."
+    },
+    {
+      "id": 31,
+      "title": "Anel da Vida",
+      "price": 300,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+3 max HP",
+      "description": "Aumenta a vitalidade do usuário."
+    },
+    {
+      "id": 32,
+      "title": "Anel da Mana",
+      "price": 300,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+3 max MP",
+      "description": "Aumenta a capacidade de energia mágica."
+    },
+    {
+      "id": 33,
+      "title": "Anel de Dano",
+      "price": 400,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1d4 damage",
+      "description": "Aumenta o poder ofensivo."
+    },
+    {
+      "id": 34,
+      "title": "Amuleto do Saber",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 INT",
+      "description": "Concede maior inteligência."
+    },
+    {
+      "id": 35,
+      "title": "Amuleto do Berserker",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 STR",
+      "description": "Aumenta a força física."
+    },
+    {
+      "id": 36,
+      "title": "Amuleto de Lince",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 DEX",
+      "description": "Melhora agilidade e reflexos."
+    },
+    {
+      "id": 37,
+      "title": "Amuleto do Terceiro Olho",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 PER",
+      "description": "Aumenta percepção e atenção."
+    },
+    {
+      "id": 38,
+      "title": "Bracelete da Proteção Divina",
+      "price": 400,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 RES",
+      "description": "Aumenta resistência a danos."
+    },
+    {
+      "id": 39,
+      "title": "Anel do Diplomata",
+      "price": 300,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 CHA",
+      "description": "Melhora carisma e persuasão."
+    },
+    {
+      "id": 40,
+      "title": "Algibeira do Infinito",
+      "price": 800,
+      "categories": [
+        13,
+        14
+      ],
+      "effect": "Infinite arrows",
+      "description": "Uma algibeira mágica que nunca esvazia."
+    },
+    {
+      "id": 41,
+      "title": "Algibeira maior",
+      "price": 40,
+      "categories": [
+        14
+      ],
+      "effect": "Carry 60 arrows",
+      "description": "Armazena uma grande quantidade de flechas."
+    },
+    {
+      "id": 42,
+      "title": "Bússola",
+      "price": 25,
+      "categories": [
+        14
+      ],
+      "description": "Ajuda a determinar direção."
+    },
+    {
+      "id": 43,
+      "title": "Cantil",
+      "price": 10,
+      "categories": [
+        14
+      ],
+      "description": "Armazena água para viagens."
+    },
+    {
+      "id": 44,
+      "title": "Corda (15m)",
+      "price": 15,
+      "categories": [
+        14
+      ],
+      "description": "Uma corda longa para escalar ou amarrar."
+    },
+    {
+      "id": 45,
+      "title": "Ração de viagem",
+      "price": 5,
+      "categories": [
+        14
+      ],
+      "description": "Suprimentos de comida para viagem."
+    },
+    {
+      "id": 46,
+      "title": "Luneta",
+      "price": 120,
+      "categories": [
+        14
+      ],
+      "description": "Permite observar à distância."
+    },
+    {
+      "id": 47,
+      "title": "Gazuas",
+      "price": 80,
+      "categories": [
+        14
+      ],
+      "description": "Usadas para abrir fechaduras."
+    },
+    {
+      "id": 48,
+      "title": "Lupa",
+      "price": 40,
+      "categories": [
+        14
+      ],
+      "description": "Ajuda a analisar detalhes pequenos."
+    },
+    {
+      "id": 49,
+      "title": "Saco de dormir",
+      "price": 25,
+      "categories": [
+        14
+      ],
+      "description": "Permite descanso durante viagens."
+    },
+    {
+      "id": 50,
+      "title": "Mapa do local",
+      "price": 30,
+      "categories": [
+        14
+      ],
+      "description": "Mostra o terreno e caminhos próximos."
+    },
+    {
+      "id": 51,
+      "title": "Sela",
+      "price": 100,
+      "categories": [
+        14
+      ],
+      "description": "Usada para montar animais com conforto."
+    },
+    {
+      "id": 52,
+      "title": "Poção de vida pequena",
+      "price": 30,
+      "categories": [
+        16
+      ],
+      "heal": "+3 HP (2 uses)",
+      "description": "Uma poção pequena com usos limitados."
+    },
+    {
+      "id": 53,
+      "title": "Poção de mana pequena",
+      "price": 30,
+      "categories": [
+        16
+      ],
+      "heal": "+3 MP (2 uses)",
+      "description": "Restaura uma pequena quantidade de mana."
+    },
+    {
+      "id": 54,
+      "title": "Poção de vida média",
+      "price": 70,
+      "categories": [
+        16
+      ],
+      "heal": "+5 HP (3 uses)",
+      "description": "Uma poção confiável para cura."
+    },
+    {
+      "id": 55,
+      "title": "Poção de mana média",
+      "price": 70,
+      "categories": [
+        16
+      ],
+      "heal": "+5 MP (3 uses)",
+      "description": "Restaura uma quantidade moderada de mana."
+    },
+    {
+      "id": 56,
+      "title": "Poção de vida grande",
+      "price": 120,
+      "categories": [
+        16
+      ],
+      "heal": "+10 HP (3 uses)",
+      "description": "Uma poção poderosa que restaura muita vida."
+    },
+    {
+      "id": 57,
+      "title": "Poção de mana grande",
+      "price": 120,
+      "categories": [
+        16
+      ],
+      "heal": "+10 MP (3 uses)",
+      "description": "Uma poção forte que restaura muita mana."
+    },
+    {
+      "id": 58,
+      "title": "Antídoto contra veneno",
+      "price": 25,
+      "categories": [
+        16
+      ],
+      "description": "Cura efeitos de veneno."
+    },
+    {
+      "id": 59,
+      "title": "Bandagem",
+      "price": 10,
+      "categories": [
+        16
+      ],
+      "heal": "+2 HP",
+      "description": "Fornece uma pequena cura."
+    },
+    {
+      "id": 60,
+      "title": "Kit para fraturas",
+      "price": 50,
+      "categories": [
+        16
+      ],
+      "description": "Usado para tratar fraturas."
+    }
+  ]
+}

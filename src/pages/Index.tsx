@@ -1,5 +1,7 @@
 import { useMemo, useState, useEffect } from "react";
-import data from "@/data/items.json";
+import itemsDataEn from "@/data/items_en.json";
+import itemsDataPtbr from "@/data/items_ptbr.json";
+import categoriesData from "@/data/categories.json"
 import type { Item, Category } from "@/types";
 import Header from "@/components/Header";
 import Filters, { FilterState } from "@/components/Filters";
@@ -15,8 +17,9 @@ import {
 } from "@/components/ui/pagination";
 import { tr } from "@/utils/i18n";
 
-const items = data.items as Item[];
-const categories = data.categories as Category[];
+const itemsEn = itemsDataEn.items as Item[];
+const itemsPtbr = itemsDataPtbr.items as Item[];
+const categories = categoriesData.categories as Category[];
 
 function CatalogInner() {
   const { lang } = useApp();
@@ -35,16 +38,18 @@ function CatalogInner() {
     const min = filters.minPrice ? parseFloat(filters.minPrice) : -Infinity;
     const max = filters.maxPrice ? parseFloat(filters.maxPrice) : Infinity;
 
+    const items = lang === "pt" ? itemsPtbr : itemsEn
+
     return items
       .filter((it) => {
-        if (q && !it.title_pt.toLowerCase().includes(q) && !it.title_en.toLowerCase().includes(q)) return false;
+        if (q && !it.title.toLowerCase().includes(q)) return false;
         if (filters.category && !it.categories.includes(parseInt(filters.category))) return false;
         if (it.price < min || it.price > max) return false;
         return true;
       })
       .sort((a, b) => {
-        const ka = (lang === "pt" ? a.title_pt : a.title_en).toLowerCase();
-        const kb = (lang === "pt" ? b.title_pt : b.title_en).toLowerCase();
+        const ka = (a.title).toLowerCase();
+        const kb = (b.title).toLowerCase();
         return ka.localeCompare(kb);
       });
   }, [filters, lang]);
