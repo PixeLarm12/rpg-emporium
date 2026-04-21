@@ -1,241 +1,739 @@
 {
   "categories": [
-    { "id": 1, "name_en": "Defense", "name_pt": "Defesa" },
-    { "id": 2, "name_en": "Head", "name_pt": "Cabeça" },
-    { "id": 3, "name_en": "Chest", "name_pt": "Peito" },
-    { "id": 4, "name_en": "Legs", "name_pt": "Pernas" },
-    { "id": 5, "name_en": "Feet", "name_pt": "Pés" },
-    { "id": 6, "name_en": "Shield", "name_pt": "Escudo" },
-    { "id": 7, "name_en": "One hand", "name_pt": "Uma mão" },
-    { "id": 8, "name_en": "Two hand", "name_pt": "Duas mãos" },
-    { "id": 9, "name_en": "Melee", "name_pt": "Corpo a corpo" },
-    { "id": 10, "name_en": "Ranged", "name_pt": "Longa distância" },
-    { "id": 11, "name_en": "Offensive", "name_pt": "Ofensivo" },
-    { "id": 12, "name_en": "Ammo", "name_pt": "Munição" },
-    { "id": 13, "name_en": "Magical", "name_pt": "Mágico" },
-    { "id": 14, "name_en": "Utility", "name_pt": "Utilidade" },
-    { "id": 15, "name_en": "Jewelry", "name_pt": "Jóia" },
-    { "id": 16, "name_en": "Heal", "name_pt": "Recuperação" }
+    {
+      "id": 1,
+      "name_en": "Defense",
+      "name_pt": "Defesa"
+    },
+    {
+      "id": 2,
+      "name_en": "Head",
+      "name_pt": "Cabeça"
+    },
+    {
+      "id": 3,
+      "name_en": "Chest",
+      "name_pt": "Peito"
+    },
+    {
+      "id": 4,
+      "name_en": "Legs",
+      "name_pt": "Pernas"
+    },
+    {
+      "id": 5,
+      "name_en": "Feet",
+      "name_pt": "Pés"
+    },
+    {
+      "id": 6,
+      "name_en": "Shield",
+      "name_pt": "Escudo"
+    },
+    {
+      "id": 7,
+      "name_en": "One hand",
+      "name_pt": "Uma mão"
+    },
+    {
+      "id": 8,
+      "name_en": "Two hand",
+      "name_pt": "Duas mãos"
+    },
+    {
+      "id": 9,
+      "name_en": "Melee",
+      "name_pt": "Corpo a corpo"
+    },
+    {
+      "id": 10,
+      "name_en": "Ranged",
+      "name_pt": "Longa distância"
+    },
+    {
+      "id": 11,
+      "name_en": "Offensive",
+      "name_pt": "Ofensivo"
+    },
+    {
+      "id": 12,
+      "name_en": "Ammo",
+      "name_pt": "Munição"
+    },
+    {
+      "id": 13,
+      "name_en": "Magical",
+      "name_pt": "Mágico"
+    },
+    {
+      "id": 14,
+      "name_en": "Utility",
+      "name_pt": "Utilidade"
+    },
+    {
+      "id": 15,
+      "name_en": "Jewelry",
+      "name_pt": "Jóia"
+    },
+    {
+      "id": 16,
+      "name_en": "Heal",
+      "name_pt": "Recuperação"
+    }
   ],
-
   "items": [
     {
       "id": 1,
       "title_en": "Closed copper helmet",
       "title_pt": "Elmo fechado de cobre",
       "price": 20,
-      "categories": [1,2],
+      "categories": [
+        1,
+        2
+      ],
       "defense": 1,
-      "durability": 2,
-      "description_en": "Simple copper helmet offering basic head protection.",
-      "description_pt": "Elmo simples de cobre que oferece proteção básica."
+      "durability": 2
     },
     {
       "id": 2,
       "title_en": "Partial iron helmet",
       "title_pt": "Elmo parcial de ferro",
       "price": 30,
-      "categories": [1,2],
+      "categories": [
+        1,
+        2
+      ],
       "defense": 1,
-      "durability": 3,
-      "description_en": "Iron helmet with partial coverage and better durability.",
-      "description_pt": "Elmo de ferro com proteção parcial e maior durabilidade."
+      "durability": 3
     },
     {
       "id": 3,
       "title_en": "Closed iron helmet",
       "title_pt": "Elmo fechado de ferro",
       "price": 50,
-      "categories": [1,2],
+      "categories": [
+        1,
+        2
+      ],
       "defense": 2,
-      "durability": 4,
-      "description_en": "Fully enclosed iron helmet with solid defense.",
-      "description_pt": "Elmo de ferro fechado com boa proteção."
+      "durability": 4
     },
     {
       "id": 4,
       "title_en": "Closed gold helmet",
       "title_pt": "Elmo fechado de ouro",
       "price": 90,
-      "categories": [1,2],
+      "categories": [
+        1,
+        2
+      ],
       "defense": 2,
-      "durability": 3,
-      "description_en": "Decorative gold helmet with decent protection.",
-      "description_pt": "Elmo de ouro decorativo com proteção razoável."
+      "durability": 3
     },
-
     {
       "id": 5,
       "title_en": "Leather chest armor",
       "title_pt": "Corselete de couro",
       "price": 15,
-      "categories": [1,3],
+      "categories": [
+        1,
+        3
+      ],
       "defense": 1,
-      "durability": 2,
-      "description_en": "Light leather armor for basic torso protection.",
-      "description_pt": "Armadura leve de couro para proteção básica do torso."
+      "durability": 2
     },
     {
       "id": 6,
       "title_en": "Chainmail chest",
       "title_pt": "Peitoral de anéis",
       "price": 60,
-      "categories": [1,3],
+      "categories": [
+        1,
+        3
+      ],
       "defense": 2,
-      "durability": 5,
-      "description_en": "Chainmail armor offering balanced defense and durability.",
-      "description_pt": "Armadura de anéis com boa defesa e durabilidade."
+      "durability": 5
     },
     {
       "id": 7,
       "title_en": "Iron chestplate",
       "title_pt": "Peitoral de ferro",
       "price": 220,
-      "categories": [1,3],
+      "categories": [
+        1,
+        3
+      ],
       "defense": 4,
-      "durability": 8,
-      "description_en": "Heavy iron armor with high protection.",
-      "description_pt": "Armadura pesada de ferro com alta proteção."
+      "durability": 8
     },
-
+    {
+      "id": 8,
+      "title_en": "Reinforced leather pants",
+      "title_pt": "Calça de couro reforçado",
+      "price": 40,
+      "categories": [
+        1,
+        4
+      ],
+      "defense": 1,
+      "durability": 2
+    },
+    {
+      "id": 9,
+      "title_en": "Chainmail pants",
+      "title_pt": "Calça de anéis",
+      "price": 70,
+      "categories": [
+        1,
+        4
+      ],
+      "defense": 2,
+      "durability": 4
+    },
+    {
+      "id": 10,
+      "title_en": "Iron pants",
+      "title_pt": "Calça de ferro",
+      "price": 150,
+      "categories": [
+        1,
+        4
+      ],
+      "defense": 3,
+      "durability": 5
+    },
+    {
+      "id": 11,
+      "title_en": "Copper boots",
+      "title_pt": "Botas de cobre",
+      "price": 30,
+      "categories": [
+        1,
+        5
+      ],
+      "defense": 1,
+      "durability": 3
+    },
+    {
+      "id": 12,
+      "title_en": "Knight boots",
+      "title_pt": "Botas de cavaleiro",
+      "price": 120,
+      "categories": [
+        1,
+        5
+      ],
+      "defense": 2,
+      "durability": 6
+    },
+    {
+      "id": 13,
+      "title_en": "Small wooden shield",
+      "title_pt": "Escudo pequeno de madeira",
+      "price": 70,
+      "categories": [
+        1,
+        6,
+        7
+      ],
+      "defense": 1,
+      "durability": 2
+    },
+    {
+      "id": 14,
+      "title_en": "Small iron shield",
+      "title_pt": "Escudo pequeno de ferro",
+      "price": 120,
+      "categories": [
+        1,
+        6,
+        7
+      ],
+      "defense": 2,
+      "durability": 5
+    },
+    {
+      "id": 15,
+      "title_en": "Large iron shield",
+      "title_pt": "Escudo grande de ferro",
+      "price": 280,
+      "categories": [
+        1,
+        6,
+        8
+      ],
+      "defense": 5,
+      "durability": 8
+    },
     {
       "id": 16,
       "title_en": "Dagger",
       "title_pt": "Adaga",
       "price": 50,
-      "categories": [7,9,11],
+      "categories": [
+        7,
+        9,
+        11
+      ],
       "range": 1,
-      "damage": "1d6",
-      "description_en": "Light and fast weapon for quick attacks.",
-      "description_pt": "Arma leve e rápida para ataques ágeis."
+      "damage": "1d6"
     },
     {
       "id": 17,
       "title_en": "Short sword",
       "title_pt": "Espada curta",
       "price": 100,
-      "categories": [7,9,11],
+      "categories": [
+        7,
+        9,
+        11
+      ],
       "range": 1,
-      "damage": "2d4",
-      "description_en": "Balanced one-handed sword for close combat.",
-      "description_pt": "Espada equilibrada de uma mão para combate próximo."
+      "damage": "2d4"
     },
     {
       "id": 18,
       "title_en": "Long sword",
       "title_pt": "Espada longa",
       "price": 180,
-      "categories": [8,9,11],
+      "categories": [
+        8,
+        9,
+        11
+      ],
       "range": 2,
-      "damage": "2d6+2",
-      "description_en": "Versatile two-handed sword with strong damage.",
-      "description_pt": "Espada versátil de duas mãos com bom dano."
+      "damage": "2d6+2"
     },
-
+    {
+      "id": 19,
+      "title_en": "Battle axe",
+      "title_pt": "Machado de batalha",
+      "price": 250,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "3d6"
+    },
+    {
+      "id": 20,
+      "title_en": "War hammer",
+      "title_pt": "Martelo de guerra",
+      "price": 300,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "3d8"
+    },
     {
       "id": 21,
       "title_en": "Short bow",
       "title_pt": "Arco curto",
       "price": 50,
-      "categories": [8,10,11],
+      "categories": [
+        8,
+        10,
+        11
+      ],
       "range": 6,
-      "damage": "1d6",
-      "description_en": "Light bow for short to medium range attacks.",
-      "description_pt": "Arco leve para ataques de curta a média distância."
+      "damage": "1d6"
     },
     {
       "id": 22,
       "title_en": "Long bow",
       "title_pt": "Arco longo",
       "price": 90,
-      "categories": [8,10,11],
+      "categories": [
+        8,
+        10,
+        11
+      ],
       "range": 8,
-      "damage": "1d8+2",
-      "description_en": "Powerful bow with extended range.",
-      "description_pt": "Arco poderoso com alcance maior."
+      "damage": "1d8+2"
     },
-
+    {
+      "id": 23,
+      "title_en": "Heavy crossbow",
+      "title_pt": "Besta pesada",
+      "price": 150,
+      "categories": [
+        8,
+        10,
+        11
+      ],
+      "range": 10,
+      "damage": "2d8"
+    },
     {
       "id": 24,
       "title_en": "Gunpowder pistol",
       "title_pt": "Pistola de pólvora",
       "price": 900,
-      "categories": [7,10,11],
+      "categories": [
+        7,
+        10,
+        11
+      ],
       "range": 8,
-      "damage": "3d6",
-      "description_en": "Firearm dealing high damage with limited use.",
-      "description_pt": "Arma de fogo que causa alto dano com uso limitado."
+      "damage": "3d6"
     },
-
+    {
+      "id": 25,
+      "title_en": "Arrows (30x)",
+      "title_pt": "Flechas (30x)",
+      "price": 15,
+      "categories": [
+        12
+      ]
+    },
+    {
+      "id": 26,
+      "title_en": "Bolts (30x)",
+      "title_pt": "Virotes (30x)",
+      "price": 20,
+      "categories": [
+        12
+      ]
+    },
     {
       "id": 27,
       "title_en": "Health potion",
       "title_pt": "Poção de vida",
       "price": 50,
-      "categories": [16],
-      "heal": "2d4+2",
-      "description_en": "Restores a moderate amount of health.",
-      "description_pt": "Recupera uma quantidade moderada de vida."
+      "categories": [
+        16
+      ],
+      "heal": "2d4+2"
     },
-
+    {
+      "id": 28,
+      "title_en": "Rope",
+      "title_pt": "Corda",
+      "price": 10,
+      "categories": [
+        14
+      ]
+    },
+    {
+      "id": 29,
+      "title_en": "Torch",
+      "title_pt": "Tocha",
+      "price": 2,
+      "categories": [
+        14
+      ]
+    },
+    {
+      "id": 30,
+      "title_en": "Backpack",
+      "title_pt": "Mochila",
+      "price": 15,
+      "categories": [
+        14
+      ]
+    },
     {
       "id": 31,
       "title_en": "Ring of Life",
       "title_pt": "Anel da Vida",
       "price": 300,
-      "categories": [13,15],
-      "effect": "+3 max HP",
-      "description_en": "Magical ring that increases maximum health.",
-      "description_pt": "Anel mágico que aumenta a vida máxima."
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+3 max HP"
+    },
+    {
+      "id": 32,
+      "title_en": "Ring of Mana",
+      "title_pt": "Anel da Mana",
+      "price": 300,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+3 max MP"
+    },
+    {
+      "id": 33,
+      "title_en": "Ring of Damage",
+      "title_pt": "Anel de Dano",
+      "price": 400,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1d4 damage"
+    },
+    {
+      "id": 34,
+      "title_en": "Amulet of Knowledge",
+      "title_pt": "Amuleto do Saber",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 INT"
+    },
+    {
+      "id": 35,
+      "title_en": "Amulet of Berserker",
+      "title_pt": "Amuleto do Berserker",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 STR"
+    },
+    {
+      "id": 36,
+      "title_en": "Amulet of Lynx",
+      "title_pt": "Amuleto de Lince",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 DEX"
+    },
+    {
+      "id": 37,
+      "title_en": "Amulet of Third Eye",
+      "title_pt": "Amuleto do Terceiro Olho",
+      "price": 350,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 PER"
+    },
+    {
+      "id": 38,
+      "title_en": "Divine Protection Bracelet",
+      "title_pt": "Bracelete da Proteção Divina",
+      "price": 400,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 RES"
+    },
+    {
+      "id": 39,
+      "title_en": "Diplomat Ring",
+      "title_pt": "Anel do Diplomata",
+      "price": 300,
+      "categories": [
+        13,
+        15
+      ],
+      "effect": "+1 CHA"
     },
     {
       "id": 40,
       "title_en": "Infinite Quiver",
       "title_pt": "Algibeira do Infinito",
       "price": 800,
-      "categories": [13,14],
-      "effect": "Infinite arrows",
-      "description_en": "Magical quiver that never runs out of arrows.",
-      "description_pt": "Algibeira mágica que nunca fica sem flechas."
+      "categories": [
+        13,
+        14
+      ],
+      "effect": "Infinite arrows"
     },
-
+    {
+      "id": 41,
+      "title_en": "Large quiver",
+      "title_pt": "Algibeira maior",
+      "price": 40,
+      "categories": [
+        14
+      ],
+      "effect": "Carry 60 arrows"
+    },
     {
       "id": 42,
       "title_en": "Compass",
       "title_pt": "Bússola",
       "price": 25,
-      "categories": [14],
-      "description_en": "Helps with navigation and direction.",
-      "description_pt": "Ajuda na navegação e orientação."
+      "categories": [
+        14
+      ]
+    },
+    {
+      "id": 43,
+      "title_en": "Waterskin",
+      "title_pt": "Cantil",
+      "price": 10,
+      "categories": [
+        14
+      ]
+    },
+    {
+      "id": 44,
+      "title_en": "Rope (15m)",
+      "title_pt": "Corda (15m)",
+      "price": 15,
+      "categories": [
+        14
+      ]
+    },
+    {
+      "id": 45,
+      "title_en": "Rations",
+      "title_pt": "Ração de viagem",
+      "price": 5,
+      "categories": [
+        14
+      ]
+    },
+    {
+      "id": 46,
+      "title_en": "Spyglass",
+      "title_pt": "Luneta",
+      "price": 120,
+      "categories": [
+        14
+      ]
     },
     {
       "id": 47,
       "title_en": "Lockpicks",
       "title_pt": "Gazuas",
       "price": 80,
-      "categories": [14],
-      "description_en": "Tools used to open locked doors and chests.",
-      "description_pt": "Ferramentas usadas para abrir fechaduras."
+      "categories": [
+        14
+      ]
     },
-
+    {
+      "id": 48,
+      "title_en": "Magnifying glass",
+      "title_pt": "Lupa",
+      "price": 40,
+      "categories": [
+        14
+      ]
+    },
+    {
+      "id": 49,
+      "title_en": "Sleeping bag",
+      "title_pt": "Saco de dormir",
+      "price": 25,
+      "categories": [
+        14
+      ]
+    },
+    {
+      "id": 50,
+      "title_en": "Local map",
+      "title_pt": "Mapa do local",
+      "price": 30,
+      "categories": [
+        14
+      ]
+    },
+    {
+      "id": 51,
+      "title_en": "Saddle",
+      "title_pt": "Sela",
+      "price": 100,
+      "categories": [
+        14
+      ]
+    },
     {
       "id": 52,
       "title_en": "Small health potion",
       "title_pt": "Poção de vida pequena",
       "price": 30,
-      "categories": [16],
-      "heal": "+3 HP (2 uses)",
-      "description_en": "Small potion that restores a little health.",
-      "description_pt": "Poção pequena que recupera pouca vida."
+      "categories": [
+        16
+      ],
+      "heal": "+3 HP (2 uses)"
+    },
+    {
+      "id": 53,
+      "title_en": "Small mana potion",
+      "title_pt": "Poção de mana pequena",
+      "price": 30,
+      "categories": [
+        16
+      ],
+      "heal": "+3 MP (2 uses)"
+    },
+    {
+      "id": 54,
+      "title_en": "Medium health potion",
+      "title_pt": "Poção de vida média",
+      "price": 70,
+      "categories": [
+        16
+      ],
+      "heal": "+5 HP (3 uses)"
+    },
+    {
+      "id": 55,
+      "title_en": "Medium mana potion",
+      "title_pt": "Poção de mana média",
+      "price": 70,
+      "categories": [
+        16
+      ],
+      "heal": "+5 MP (3 uses)"
+    },
+    {
+      "id": 56,
+      "title_en": "Large health potion",
+      "title_pt": "Poção de vida grande",
+      "price": 120,
+      "categories": [
+        16
+      ],
+      "heal": "+10 HP (3 uses)"
+    },
+    {
+      "id": 57,
+      "title_en": "Large mana potion",
+      "title_pt": "Poção de mana grande",
+      "price": 120,
+      "categories": [
+        16
+      ],
+      "heal": "+10 MP (3 uses)"
     },
     {
       "id": 58,
       "title_en": "Antidote",
       "title_pt": "Antídoto contra veneno",
       "price": 25,
-      "categories": [16],
-      "description_en": "Cures poison effects.",
-      "description_pt": "Cura efeitos de veneno."
+      "categories": [
+        16
+      ]
+    },
+    {
+      "id": 59,
+      "title_en": "Bandage",
+      "title_pt": "Bandagem",
+      "price": 10,
+      "categories": [
+        16
+      ],
+      "heal": "+2 HP"
+    },
+    {
+      "id": 60,
+      "title_en": "Fracture kit",
+      "title_pt": "Kit para fraturas",
+      "price": 50,
+      "categories": [
+        16
+      ]
     }
   ]
 }
