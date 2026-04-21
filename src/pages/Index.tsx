@@ -26,7 +26,7 @@ function CatalogInner() {
     return items
       .filter((it) => {
         if (q && !it.title_pt.toLowerCase().includes(q) && !it.title_en.toLowerCase().includes(q)) return false;
-        if (filters.category && !it.categories.includes(filters.category)) return false;
+        if (filters.category && !it.categories.includes(parseInt(filters.category))) return false;
         if (it.price < min || it.price > max) return false;
         return true;
       })
