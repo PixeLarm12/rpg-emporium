@@ -20,7 +20,7 @@ export default function ItemCard({ item, categories }: { item: Item; categories:
       <h3 className="font-display text-base sm:text-lg leading-tight text-primary group-hover:text-accent transition-colors">
         {title}
       </h3>
-      <p className="text-sm text-muted-foreground italic line-clamp-2 flex-1">
+      <p className="text-lg text-muted-foreground italic line-clamp-2 flex-1">
         {description}
       </p>
     </Link>

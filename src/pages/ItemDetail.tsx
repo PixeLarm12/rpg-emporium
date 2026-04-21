@@ -49,7 +49,7 @@ function DetailInner() {
       <main className="container mx-auto px-3 py-4 flex-1 max-w-3xl">
         <Link
           to="/"
-          className="inline-block mb-4 font-display text-sm text-accent hover:underline"
+          className="inline-block mb-4 font-display text-lg text-accent hover:underline"
         >
           ← {tr("back", lang)}
         </Link>
