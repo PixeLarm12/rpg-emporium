@@ -1,0 +1,84 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name_en": "Defense",
+            "name_pt": "Defesa"
+        },
+        {
+            "id": 2,
+            "name_en": "Head",
+            "name_pt": "Cabeça"
+        },
+        {
+            "id": 3,
+            "name_en": "Chest",
+            "name_pt": "Peito"
+        },
+        {
+            "id": 4,
+            "name_en": "Legs",
+            "name_pt": "Pernas"
+        },
+        {
+            "id": 5,
+            "name_en": "Feet",
+            "name_pt": "Pés"
+        },
+        {
+            "id": 6,
+            "name_en": "Shield",
+            "name_pt": "Escudo"
+        },
+        {
+            "id": 7,
+            "name_en": "One hand",
+            "name_pt": "Uma mão"
+        },
+        {
+            "id": 8,
+            "name_en": "Two hand",
+            "name_pt": "Duas mãos"
+        },
+        {
+            "id": 9,
+            "name_en": "Melee",
+            "name_pt": "Corpo a corpo"
+        },
+        {
+            "id": 10,
+            "name_en": "Ranged",
+            "name_pt": "Longa distância"
+        },
+        {
+            "id": 11,
+            "name_en": "Offensive",
+            "name_pt": "Ofensivo"
+        },
+        {
+            "id": 12,
+            "name_en": "Ammo",
+            "name_pt": "Munição"
+        },
+        {
+            "id": 13,
+            "name_en": "Magical",
+            "name_pt": "Mágico"
+        },
+        {
+            "id": 14,
+            "name_en": "Utility",
+            "name_pt": "Utilidade"
+        },
+        {
+            "id": 15,
+            "name_en": "Jewelry",
+            "name_pt": "Jóia"
+        },
+        {
+            "id": 16,
+            "name_en": "Heal",
+            "name_pt": "Recuperação"
+        }
+    ]
+}
