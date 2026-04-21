@@ -462,7 +462,7 @@
         13,
         14
       ],
-      "effect": "Infinite arrows",
+      "effect": "Infinite arrows/bolts",
       "description": "A magical quiver that never runs out."
     },
     {
@@ -472,7 +472,7 @@
       "categories": [
         14
       ],
-      "effect": "Carry 60 arrows",
+      "effect": "Carry 60 arrows/bolts",
       "description": "Stores a large number of arrows."
     },
     {
