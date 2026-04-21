@@ -1,16 +1,16 @@
 export type Category = {
-  id: string;
+  id: number;
   name_en: string;
   name_pt: string;
   icon: string;
 };
 
 export type Item = {
-  id: string;
+  id: number;
   title_en: string;
   title_pt: string;
   price: number; // in gold
-  categories: string[];
+  categories: number[];
   damage?: string;
   defense?: string;
   durability?: number;

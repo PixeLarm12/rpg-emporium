@@ -23,7 +23,7 @@ function StatRow({ label, value }: { label: string; value: string | number }) {
 function DetailInner() {
   const { id } = useParams();
   const { lang } = useApp();
-  const item = items.find((i) => i.id === id);
+  const item = items.find((i) => i.id === parseInt(id));
 
   if (!item) {
     return (
