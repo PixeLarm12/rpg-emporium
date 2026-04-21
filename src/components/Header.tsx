@@ -22,7 +22,7 @@ export default function Header() {
           </div>
         </Link>
 
-        <nav className="flex items-center gap-1 text-sm">
+        <nav className="flex items-center gap-1 text-lg">
           <NavLink
             to="/"
             className={({ isActive }) =>

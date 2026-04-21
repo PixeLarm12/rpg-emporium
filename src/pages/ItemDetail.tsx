@@ -1,13 +1,16 @@
 import { Link, useParams } from "react-router-dom";
-import data from "@/data/items.json";
+import categoriesData from "@/data/categories.json";
+import itemsDataEn from "@/data/items_en.json";
+import itemsDataPtbr from "@/data/items_ptbr.json";
 import type { Item, Category } from "@/types";
 import Header from "@/components/Header";
 import PriceTag from "@/components/PriceTag";
 import { AppProvider, useApp } from "@/context/AppContext";
 import { tr } from "@/utils/i18n";
 
-const items = data.items as Item[];
-const categories = data.categories as Category[];
+const itemsPtbr = itemsDataPtbr.items as Item[];
+const itemsEn = itemsDataEn.items as Item[];
+const categories = categoriesData.categories as Category[];
 
 function StatRow({ label, value }: { label: string; value: string | number }) {
   return (
@@ -23,7 +26,10 @@ function StatRow({ label, value }: { label: string; value: string | number }) {
 function DetailInner() {
   const { id } = useParams();
   const { lang } = useApp();
-  const item = items.find((i) => i.id === id);
+
+  const items = lang === "pt" ? itemsPtbr : itemsEn;
+
+  const item = items.find((i) => i.id === parseInt(id));
 
   if (!item) {
     return (
@@ -39,8 +45,8 @@ function DetailInner() {
     );
   }
 
-  const title = lang === "pt" ? item.title_pt : item.title_en;
-  const description = lang === "pt" ? item.description_pt : item.description_en;
+  const title = item.title;
+  const description = item.description;
   const cats = categories.filter((c) => item.categories.includes(c.id));
 
   return (
@@ -49,7 +55,7 @@ function DetailInner() {
       <main className="container mx-auto px-3 py-4 flex-1 max-w-3xl">
         <Link
           to="/"
-          className="inline-block mb-4 font-display text-sm text-accent hover:underline"
+          className="inline-block mb-4 font-display text-lg text-accent hover:underline"
         >
           ← {tr("back", lang)}
         </Link>
@@ -57,11 +63,6 @@ function DetailInner() {
         <article className="parchment-card rounded-md p-5 sm:p-8">
           <div className="flex items-start justify-between gap-3 flex-wrap">
             <div>
-              <div className="flex gap-2 text-2xl mb-2">
-                {cats.map((c) => (
-                  <span key={c.id}>{c.icon}</span>
-                ))}
-              </div>
               <h1 className="font-display text-2xl sm:text-4xl text-primary leading-tight">
                 {title}
               </h1>

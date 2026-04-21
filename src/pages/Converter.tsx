@@ -73,7 +73,7 @@ function ConverterInner() {
                 <button
                   key={c}
                   onClick={() => setCurrency(c)}
-                  className={`px-4 py-2 rounded font-display text-sm uppercase tracking-wider border transition ${
+                  className={`px-4 py-2 rounded font-display text-lg uppercase tracking-wider border transition ${
                     currency === c
                       ? "bg-accent text-accent-foreground border-accent shadow-gold"
                       : "border-border hover:border-accent text-foreground"
@@ -83,7 +83,7 @@ function ConverterInner() {
                 </button>
               ))}
             </div>
-            <p className="mt-3 text-sm italic text-muted-foreground">
+            <p className="mt-3 text-lg italic text-muted-foreground">
               {goldNum} gp = {formatCurrency(convertFromGold(goldNum, currency), currency)}
             </p>
           </div>
