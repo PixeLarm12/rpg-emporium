@@ -57,11 +57,6 @@ function DetailInner() {
         <article className="parchment-card rounded-md p-5 sm:p-8">
           <div className="flex items-start justify-between gap-3 flex-wrap">
             <div>
-              <div className="flex gap-2 text-2xl mb-2">
-                {cats.map((c) => (
-                  <span key={c.id}>{c.icon}</span>
-                ))}
-              </div>
               <h1 className="font-display text-2xl sm:text-4xl text-primary leading-tight">
                 {title}
               </h1>

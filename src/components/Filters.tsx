@@ -45,7 +45,7 @@ export default function Filters({ categories, filters, setFilters }: Props) {
           <option value="">{tr("allCategories", lang)}</option>
           {categories.map((c) => (
             <option key={c.id} value={c.id}>
-              {c.icon} {lang === "pt" ? c.name_pt : c.name_en}
+              {lang === "pt" ? c.name_pt : c.name_en}
             </option>
           ))}
         </select>

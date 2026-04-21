@@ -2,7 +2,6 @@ export type Category = {
   id: number;
   name_en: string;
   name_pt: string;
-  icon: string;
 };
 
 export type Item = {

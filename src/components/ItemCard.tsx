@@ -15,13 +15,6 @@ export default function ItemCard({ item, categories }: { item: Item; categories:
       className="parchment-card rounded-md p-4 flex flex-col gap-2 transition-all duration-200 hover:shadow-gold hover:-translate-y-1 hover:border-accent group"
     >
       <div className="flex items-start justify-between gap-2">
-        <div className="flex gap-1 text-xl">
-          {cats.map((c) => (
-            <span key={c.id} title={lang === "pt" ? c.name_pt : c.name_en}>
-              {c.icon}
-            </span>
-          ))}
-        </div>
         <PriceTag goldValue={item.price} size="sm" />
       </div>
       <h3 className="font-display text-base sm:text-lg leading-tight text-primary group-hover:text-accent transition-colors">

@@ -1,21 +1,21 @@
 {
   "categories": [
-    { "id": 1, "name_en": "defense", "name_pt": "defesa" , "icon": "🛡️" },
-    { "id": 2, "name_en": "head", "name_pt": "cabeça" , "icon": "⚔️" },
-    { "id": 3, "name_en": "chest", "name_pt": "peito" , "icon": "⚔️" },
-    { "id": 4, "name_en": "legs", "name_pt": "pernas" , "icon": "⚔️" },
-    { "id": 5, "name_en": "feet", "name_pt": "pés" , "icon": "⚔️" },
-    { "id": 6, "name_en": "shield", "name_pt": "escudo" , "icon": "⚔️" },
-    { "id": 7, "name_en": "one hand", "name_pt": "uma mão" , "icon": "⚔️" },
-    { "id": 8, "name_en": "two hand", "name_pt": "duas mãos" , "icon": "⚔️" },
-    { "id": 9, "name_en": "melee", "name_pt": "corpo a corpo" , "icon": "⚔️" },
-    { "id": 10, "name_en": "ranged", "name_pt": "longa distância" , "icon": "⚔️" },
-    { "id": 11, "name_en": "offensive", "name_pt": "ofensivo", "icon": "⚔️" },
-    { "id": 12, "name_en": "ammo", "name_pt": "munição" , "icon": "⚔️" },
-    { "id": 13, "name_en": "magical", "name_pt": "mágico" , "icon": "⚔️" },
-    { "id": 14, "name_en": "utility", "name_pt": "utilidade" , "icon": "⚔️" },
-    { "id": 15, "name_en": "jewelry", "name_pt": "jóia" , "icon": "⚔️" },
-    { "id": 16, "name_en": "heal", "name_pt": "recuperação" , "icon": "🧪" }
+    { "id": 1, "name_en": "Defense", "name_pt": "Defesa" },
+    { "id": 2, "name_en": "Head", "name_pt": "Cabeça" },
+    { "id": 3, "name_en": "Chest", "name_pt": "Peito" },
+    { "id": 4, "name_en": "Legs", "name_pt": "Pernas" },
+    { "id": 5, "name_en": "Feet", "name_pt": "Pés" },
+    { "id": 6, "name_en": "Shield", "name_pt": "Escudo" },
+    { "id": 7, "name_en": "One hand", "name_pt": "Uma mão" },
+    { "id": 8, "name_en": "Two hand", "name_pt": "Duas mãos" },
+    { "id": 9, "name_en": "Melee", "name_pt": "Corpo a corpo" },
+    { "id": 10, "name_en": "Ranged", "name_pt": "Longa distância" },
+    { "id": 11, "name_en": "Offensive", "name_pt": "Ofensivo" },
+    { "id": 12, "name_en": "Ammo", "name_pt": "Munição" },
+    { "id": 13, "name_en": "Magical", "name_pt": "Mágico" },
+    { "id": 14, "name_en": "Utility", "name_pt": "Utilidade" },
+    { "id": 15, "name_en": "Jewelry", "name_pt": "Jóia" },
+    { "id": 16, "name_en": "Heal", "name_pt": "Recuperação" }
   ],
 
   "items": [
