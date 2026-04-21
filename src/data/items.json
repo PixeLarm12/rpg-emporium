@@ -1,267 +1,241 @@
 {
   "categories": [
-    { "id": "weapon", "name_en": "Weapons", "name_pt": "Armas", "icon": "⚔️" },
-    { "id": "armor", "name_en": "Armor", "name_pt": "Armaduras", "icon": "🛡️" },
-    { "id": "potion", "name_en": "Potions", "name_pt": "Poções", "icon": "🧪" },
-    { "id": "scroll", "name_en": "Scrolls", "name_pt": "Pergaminhos", "icon": "📜" },
-    { "id": "food", "name_en": "Food & Drink", "name_pt": "Comida e Bebida", "icon": "🍞" },
-    { "id": "tool", "name_en": "Tools", "name_pt": "Ferramentas", "icon": "🔧" },
-    { "id": "jewelry", "name_en": "Jewelry", "name_pt": "Joias", "icon": "💎" },
-    { "id": "misc", "name_en": "Miscellaneous", "name_pt": "Diversos", "icon": "📦" }
+    { "id": 1, "name_en": "defense", "name_pt": "defesa" , "icon": "🛡️" },
+    { "id": 2, "name_en": "head", "name_pt": "cabeça" , "icon": "⚔️" },
+    { "id": 3, "name_en": "chest", "name_pt": "peito" , "icon": "⚔️" },
+    { "id": 4, "name_en": "legs", "name_pt": "pernas" , "icon": "⚔️" },
+    { "id": 5, "name_en": "feet", "name_pt": "pés" , "icon": "⚔️" },
+    { "id": 6, "name_en": "shield", "name_pt": "escudo" , "icon": "⚔️" },
+    { "id": 7, "name_en": "one hand", "name_pt": "uma mão" , "icon": "⚔️" },
+    { "id": 8, "name_en": "two hand", "name_pt": "duas mãos" , "icon": "⚔️" },
+    { "id": 9, "name_en": "melee", "name_pt": "corpo a corpo" , "icon": "⚔️" },
+    { "id": 10, "name_en": "ranged", "name_pt": "longa distância" , "icon": "⚔️" },
+    { "id": 11, "name_en": "offensive", "name_pt": "ofensivo", "icon": "⚔️" },
+    { "id": 12, "name_en": "ammo", "name_pt": "munição" , "icon": "⚔️" },
+    { "id": 13, "name_en": "magical", "name_pt": "mágico" , "icon": "⚔️" },
+    { "id": 14, "name_en": "utility", "name_pt": "utilidade" , "icon": "⚔️" },
+    { "id": 15, "name_en": "jewelry", "name_pt": "jóia" , "icon": "⚔️" },
+    { "id": 16, "name_en": "heal", "name_pt": "recuperação" , "icon": "🧪" }
   ],
+
   "items": [
     {
-      "id": "1",
-      "title_en": "Iron Longsword",
-      "title_pt": "Espada Longa de Ferro",
-      "price": 15,
-      "categories": ["weapon"],
-      "damage": "1d8 slashing",
-      "durability": 100,
-      "description_en": "A reliable iron blade, well-balanced and forged by the smiths of the northern guild.",
-      "description_pt": "Uma lâmina de ferro confiável, bem balanceada e forjada pelos ferreiros da guilda do norte."
-    },
-    {
-      "id": "2",
-      "title_en": "Oaken Shortbow",
-      "title_pt": "Arco Curto de Carvalho",
-      "price": 25,
-      "categories": ["weapon"],
-      "damage": "1d6 piercing",
-      "durability": 80,
-      "description_en": "Crafted from seasoned oak, light and accurate at short ranges.",
-      "description_pt": "Feito de carvalho curado, leve e preciso a curtas distâncias."
-    },
-    {
-      "id": "3",
-      "title_en": "Steel Battle Axe",
-      "title_pt": "Machado de Batalha de Aço",
-      "price": 40,
-      "categories": ["weapon"],
-      "damage": "1d10 slashing",
-      "durability": 120,
-      "description_en": "A heavy axe favored by mountain warriors. Cleaves shields with ease.",
-      "description_pt": "Um machado pesado, favorito dos guerreiros das montanhas. Despedaça escudos com facilidade."
-    },
-    {
-      "id": "4",
-      "title_en": "Elven Dagger",
-      "title_pt": "Adaga Élfica",
-      "price": 75,
-      "categories": ["weapon"],
-      "damage": "1d4 piercing",
-      "durability": 150,
-      "effect": "+1 attack rolls",
-      "description_en": "A finely crafted dagger of elven make, etched with silver runes.",
-      "description_pt": "Uma adaga finamente trabalhada, de fabricação élfica, gravada com runas de prata."
-    },
-    {
-      "id": "5",
-      "title_en": "Leather Armor",
-      "title_pt": "Armadura de Couro",
-      "price": 10,
-      "categories": ["armor"],
-      "defense": "+2 AC",
-      "durability": 60,
-      "description_en": "Boiled leather offering modest protection without sacrificing mobility.",
-      "description_pt": "Couro fervido oferecendo proteção modesta sem sacrificar a mobilidade."
-    },
-    {
-      "id": "6",
-      "title_en": "Chainmail",
-      "title_pt": "Cota de Malha",
-      "price": 75,
-      "categories": ["armor"],
-      "defense": "+5 AC",
-      "durability": 140,
-      "description_en": "Interlocking iron rings forming a flexible, sturdy mesh.",
-      "description_pt": "Anéis de ferro entrelaçados formando uma malha flexível e resistente."
-    },
-    {
-      "id": "7",
-      "title_en": "Plate Armor",
-      "title_pt": "Armadura de Placas",
-      "price": 1500,
-      "categories": ["armor"],
-      "defense": "+8 AC",
-      "durability": 300,
-      "description_en": "Full plate forged for knights of the realm. Heavy, but nearly impenetrable.",
-      "description_pt": "Armadura completa forjada para os cavaleiros do reino. Pesada, mas quase impenetrável."
-    },
-    {
-      "id": "8",
-      "title_en": "Tower Shield",
-      "title_pt": "Escudo Torre",
-      "price": 30,
-      "categories": ["armor"],
-      "defense": "+3 AC",
-      "durability": 100,
-      "description_en": "A massive shield reinforced with iron bands.",
-      "description_pt": "Um escudo enorme reforçado com bandas de ferro."
-    },
-    {
-      "id": "9",
-      "title_en": "Healing Potion",
-      "title_pt": "Poção de Cura",
-      "price": 50,
-      "categories": ["potion"],
-      "heal": "2d4 + 2 HP",
-      "description_en": "A red elixir that mends wounds when consumed.",
-      "description_pt": "Um elixir vermelho que cura ferimentos quando consumido."
-    },
-    {
-      "id": "10",
-      "title_en": "Greater Healing Potion",
-      "title_pt": "Poção de Cura Maior",
-      "price": 150,
-      "categories": ["potion"],
-      "heal": "4d4 + 4 HP",
-      "description_en": "A potent crimson brew, prized by adventurers for desperate moments.",
-      "description_pt": "Uma poderosa beberagem carmesim, valorizada por aventureiros em momentos desesperados."
-    },
-    {
-      "id": "11",
-      "title_en": "Mana Potion",
-      "title_pt": "Poção de Mana",
-      "price": 80,
-      "categories": ["potion"],
-      "effect": "Restores 1d6 spell slots (lowest)",
-      "description_en": "A swirling blue concoction that restores arcane energies.",
-      "description_pt": "Uma concocção azul rodopiante que restaura as energias arcanas."
-    },
-    {
-      "id": "12",
-      "title_en": "Antidote",
-      "title_pt": "Antídoto",
+      "id": 1,
+      "title_en": "Closed copper helmet",
+      "title_pt": "Elmo fechado de cobre",
       "price": 20,
-      "categories": ["potion"],
-      "effect": "Cures common poisons",
-      "description_en": "A bitter herbal mixture that neutralizes most poisons.",
-      "description_pt": "Uma mistura herbal amarga que neutraliza a maioria dos venenos."
+      "categories": [1,2],
+      "defense": 1,
+      "durability": 2,
+      "description_en": "Simple copper helmet offering basic head protection.",
+      "description_pt": "Elmo simples de cobre que oferece proteção básica."
     },
     {
-      "id": "13",
-      "title_en": "Scroll of Fireball",
-      "title_pt": "Pergaminho de Bola de Fogo",
-      "price": 250,
-      "categories": ["scroll"],
-      "damage": "8d6 fire (20ft radius)",
-      "description_en": "An inscribed parchment that unleashes a roaring sphere of flame when read aloud.",
-      "description_pt": "Um pergaminho inscrito que libera uma esfera rugindo em chamas quando lido em voz alta."
+      "id": 2,
+      "title_en": "Partial iron helmet",
+      "title_pt": "Elmo parcial de ferro",
+      "price": 30,
+      "categories": [1,2],
+      "defense": 1,
+      "durability": 3,
+      "description_en": "Iron helmet with partial coverage and better durability.",
+      "description_pt": "Elmo de ferro com proteção parcial e maior durabilidade."
     },
     {
-      "id": "14",
-      "title_en": "Scroll of Light",
-      "title_pt": "Pergaminho de Luz",
+      "id": 3,
+      "title_en": "Closed iron helmet",
+      "title_pt": "Elmo fechado de ferro",
+      "price": 50,
+      "categories": [1,2],
+      "defense": 2,
+      "durability": 4,
+      "description_en": "Fully enclosed iron helmet with solid defense.",
+      "description_pt": "Elmo de ferro fechado com boa proteção."
+    },
+    {
+      "id": 4,
+      "title_en": "Closed gold helmet",
+      "title_pt": "Elmo fechado de ouro",
+      "price": 90,
+      "categories": [1,2],
+      "defense": 2,
+      "durability": 3,
+      "description_en": "Decorative gold helmet with decent protection.",
+      "description_pt": "Elmo de ouro decorativo com proteção razoável."
+    },
+
+    {
+      "id": 5,
+      "title_en": "Leather chest armor",
+      "title_pt": "Corselete de couro",
       "price": 15,
-      "categories": ["scroll"],
-      "effect": "Illuminates 20ft for 1 hour",
-      "description_en": "A minor cantrip captured on parchment.",
-      "description_pt": "Uma magia menor capturada em pergaminho."
+      "categories": [1,3],
+      "defense": 1,
+      "durability": 2,
+      "description_en": "Light leather armor for basic torso protection.",
+      "description_pt": "Armadura leve de couro para proteção básica do torso."
     },
     {
-      "id": "15",
-      "title_en": "Loaf of Bread",
-      "title_pt": "Pão",
-      "price": 0.02,
-      "categories": ["food"],
-      "description_en": "A warm, crusty loaf from the village baker.",
-      "description_pt": "Um pão quente e crocante do padeiro da vila."
+      "id": 6,
+      "title_en": "Chainmail chest",
+      "title_pt": "Peitoral de anéis",
+      "price": 60,
+      "categories": [1,3],
+      "defense": 2,
+      "durability": 5,
+      "description_en": "Chainmail armor offering balanced defense and durability.",
+      "description_pt": "Armadura de anéis com boa defesa e durabilidade."
     },
     {
-      "id": "16",
-      "title_en": "Mug of Ale",
-      "title_pt": "Caneca de Cerveja",
-      "price": 0.04,
-      "categories": ["food"],
-      "description_en": "A frothy mug of the tavern's finest ale.",
-      "description_pt": "Uma caneca espumosa da melhor cerveja da taverna."
+      "id": 7,
+      "title_en": "Iron chestplate",
+      "title_pt": "Peitoral de ferro",
+      "price": 220,
+      "categories": [1,3],
+      "defense": 4,
+      "durability": 8,
+      "description_en": "Heavy iron armor with high protection.",
+      "description_pt": "Armadura pesada de ferro com alta proteção."
+    },
+
+    {
+      "id": 16,
+      "title_en": "Dagger",
+      "title_pt": "Adaga",
+      "price": 50,
+      "categories": [7,9,11],
+      "range": 1,
+      "damage": "1d6",
+      "description_en": "Light and fast weapon for quick attacks.",
+      "description_pt": "Arma leve e rápida para ataques ágeis."
     },
     {
-      "id": "17",
-      "title_en": "Trail Rations (1 day)",
-      "title_pt": "Ração de Viagem (1 dia)",
-      "price": 0.5,
-      "categories": ["food"],
-      "description_en": "Dried meats, hardtack, and nuts. Sustenance for the road.",
-      "description_pt": "Carnes secas, biscoitos duros e nozes. Sustento para a estrada."
+      "id": 17,
+      "title_en": "Short sword",
+      "title_pt": "Espada curta",
+      "price": 100,
+      "categories": [7,9,11],
+      "range": 1,
+      "damage": "2d4",
+      "description_en": "Balanced one-handed sword for close combat.",
+      "description_pt": "Espada equilibrada de uma mão para combate próximo."
     },
     {
-      "id": "18",
-      "title_en": "Thieves' Tools",
-      "title_pt": "Ferramentas de Ladrão",
+      "id": 18,
+      "title_en": "Long sword",
+      "title_pt": "Espada longa",
+      "price": 180,
+      "categories": [8,9,11],
+      "range": 2,
+      "damage": "2d6+2",
+      "description_en": "Versatile two-handed sword with strong damage.",
+      "description_pt": "Espada versátil de duas mãos com bom dano."
+    },
+
+    {
+      "id": 21,
+      "title_en": "Short bow",
+      "title_pt": "Arco curto",
+      "price": 50,
+      "categories": [8,10,11],
+      "range": 6,
+      "damage": "1d6",
+      "description_en": "Light bow for short to medium range attacks.",
+      "description_pt": "Arco leve para ataques de curta a média distância."
+    },
+    {
+      "id": 22,
+      "title_en": "Long bow",
+      "title_pt": "Arco longo",
+      "price": 90,
+      "categories": [8,10,11],
+      "range": 8,
+      "damage": "1d8+2",
+      "description_en": "Powerful bow with extended range.",
+      "description_pt": "Arco poderoso com alcance maior."
+    },
+
+    {
+      "id": 24,
+      "title_en": "Gunpowder pistol",
+      "title_pt": "Pistola de pólvora",
+      "price": 900,
+      "categories": [7,10,11],
+      "range": 8,
+      "damage": "3d6",
+      "description_en": "Firearm dealing high damage with limited use.",
+      "description_pt": "Arma de fogo que causa alto dano com uso limitado."
+    },
+
+    {
+      "id": 27,
+      "title_en": "Health potion",
+      "title_pt": "Poção de vida",
+      "price": 50,
+      "categories": [16],
+      "heal": "2d4+2",
+      "description_en": "Restores a moderate amount of health.",
+      "description_pt": "Recupera uma quantidade moderada de vida."
+    },
+
+    {
+      "id": 31,
+      "title_en": "Ring of Life",
+      "title_pt": "Anel da Vida",
+      "price": 300,
+      "categories": [13,15],
+      "effect": "+3 max HP",
+      "description_en": "Magical ring that increases maximum health.",
+      "description_pt": "Anel mágico que aumenta a vida máxima."
+    },
+    {
+      "id": 40,
+      "title_en": "Infinite Quiver",
+      "title_pt": "Algibeira do Infinito",
+      "price": 800,
+      "categories": [13,14],
+      "effect": "Infinite arrows",
+      "description_en": "Magical quiver that never runs out of arrows.",
+      "description_pt": "Algibeira mágica que nunca fica sem flechas."
+    },
+
+    {
+      "id": 42,
+      "title_en": "Compass",
+      "title_pt": "Bússola",
       "price": 25,
-      "categories": ["tool"],
-      "effect": "Required for picking locks",
-      "description_en": "A leather pouch containing picks, files, and tiny mirrors.",
-      "description_pt": "Uma bolsa de couro contendo gazuas, limas e pequenos espelhos."
+      "categories": [14],
+      "description_en": "Helps with navigation and direction.",
+      "description_pt": "Ajuda na navegação e orientação."
     },
     {
-      "id": "19",
-      "title_en": "Lantern",
-      "title_pt": "Lanterna",
-      "price": 5,
-      "categories": ["tool"],
-      "effect": "30ft bright light, 30ft dim",
-      "description_en": "A hooded oil lantern, sturdy and reliable.",
-      "description_pt": "Uma lanterna a óleo com capuz, robusta e confiável."
+      "id": 47,
+      "title_en": "Lockpicks",
+      "title_pt": "Gazuas",
+      "price": 80,
+      "categories": [14],
+      "description_en": "Tools used to open locked doors and chests.",
+      "description_pt": "Ferramentas usadas para abrir fechaduras."
+    },
+
+    {
+      "id": 52,
+      "title_en": "Small health potion",
+      "title_pt": "Poção de vida pequena",
+      "price": 30,
+      "categories": [16],
+      "heal": "+3 HP (2 uses)",
+      "description_en": "Small potion that restores a little health.",
+      "description_pt": "Poção pequena que recupera pouca vida."
     },
     {
-      "id": "20",
-      "title_en": "Rope (50ft, hempen)",
-      "title_pt": "Corda (15m, cânhamo)",
-      "price": 1,
-      "categories": ["tool"],
-      "description_en": "Strong hemp rope, an adventurer's best friend.",
-      "description_pt": "Corda de cânhamo resistente, a melhor amiga de um aventureiro."
-    },
-    {
-      "id": "21",
-      "title_en": "Silver Amulet",
-      "title_pt": "Amuleto de Prata",
-      "price": 50,
-      "categories": ["jewelry"],
-      "description_en": "A pendant engraved with the sigil of an old noble house.",
-      "description_pt": "Um pingente gravado com o brasão de uma antiga casa nobre."
-    },
-    {
-      "id": "22",
-      "title_en": "Ring of Protection",
-      "title_pt": "Anel de Proteção",
-      "price": 3500,
-      "categories": ["jewelry", "armor"],
-      "defense": "+1 AC and saving throws",
-      "description_en": "A simple band warm to the touch. Wards off harm.",
-      "description_pt": "Uma faixa simples, quente ao toque. Repele o dano."
-    },
-    {
-      "id": "23",
-      "title_en": "Bedroll",
-      "title_pt": "Saco de Dormir",
-      "price": 0.1,
-      "categories": ["misc"],
-      "description_en": "Wool blankets rolled with leather straps.",
-      "description_pt": "Cobertores de lã enrolados com tiras de couro."
-    },
-    {
-      "id": "24",
-      "title_en": "Backpack",
-      "title_pt": "Mochila",
-      "price": 2,
-      "categories": ["misc"],
-      "description_en": "A sturdy leather pack with multiple compartments.",
-      "description_pt": "Uma mochila de couro resistente com vários compartimentos."
-    },
-    {
-      "id": "25",
-      "title_en": "Crossbow, Heavy",
-      "title_pt": "Besta Pesada",
-      "price": 50,
-      "categories": ["weapon"],
-      "damage": "1d10 piercing",
-      "durability": 90,
-      "description_en": "A devastating ranged weapon with iron-bound stock.",
-      "description_pt": "Uma arma à distância devastadora com coronha reforçada de ferro."
+      "id": 58,
+      "title_en": "Antidote",
+      "title_pt": "Antídoto contra veneno",
+      "price": 25,
+      "categories": [16],
+      "description_en": "Cures poison effects.",
+      "description_pt": "Cura efeitos de veneno."
     }
   ]
 }
