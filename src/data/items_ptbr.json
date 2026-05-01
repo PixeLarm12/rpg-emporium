@@ -652,6 +652,149 @@
         16
       ],
       "description": "Usado para tratar fraturas."
+    },
+    {
+      "id": 61,
+      "title": "Cimitarra",
+      "price": 140,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "2d4+1",
+      "description": "Uma lâmina curva leve, ideal para cortes rápidos."
+    },
+    {
+      "id": 62,
+      "title": "Katana",
+      "price": 220,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "2d6+3",
+      "description": "Uma espada longa extremamente afiada e precisa."
+    },
+    {
+      "id": 63,
+      "title": "Lança",
+      "price": 90,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "2d4+2",
+      "description": "Uma arma de haste que permite atacar à distância segura."
+    },
+    {
+      "id": 64,
+      "title": "Machado de duas lâminas",
+      "price": 280,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "3d6+1",
+      "description": "Um machado pesado com duas lâminas, devastador em combate."
+    },
+    {
+      "id": 65,
+      "title": "Mangual",
+      "price": 180,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "2d6",
+      "description": "Uma arma com corrente que ignora parcialmente defesas."
+    },
+    {
+      "id": 66,
+      "title": "Sabre pirata",
+      "price": 160,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "2d4+2",
+      "description": "Uma lâmina leve e ágil, popular entre navegadores."
+    },
+    {
+      "id": 67,
+      "title": "Rapieira",
+      "price": 170,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "1d8+2",
+      "description": "Uma espada fina focada em precisão e estocadas rápidas."
+    },
+    {
+      "id": 68,
+      "title": "Estilingue",
+      "price": 20,
+      "categories": [
+        7,
+        10,
+        11
+      ],
+      "range": 5,
+      "damage": "1d4",
+      "description": "Uma arma simples que dispara pequenas pedras."
+    },
+    {
+      "id": 69,
+      "title": "Cajado",
+      "price": 60,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "1d8",
+      "description": "Um bastão longo usado tanto para combate quanto apoio."
+    },
+    {
+      "id": 70,
+      "title": "Besta leve",
+      "price": 110,
+      "categories": [
+        7,
+        10,
+        11
+      ],
+      "range": 8,
+      "damage": "1d8+1",
+      "description": "Uma versão mais leve da besta, fácil de manusear."
+    },
+    {
+      "id": 71,
+      "title": "Bumerangue",
+      "price": 45,
+      "categories": [
+        7,
+        10,
+        11
+      ],
+      "range": 6,
+      "damage": "1d6",
+      "description": "Uma arma de arremesso que pode retornar ao usuário."
     }
   ]
 }
