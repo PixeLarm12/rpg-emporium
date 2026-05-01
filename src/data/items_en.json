@@ -652,6 +652,149 @@
         16
       ],
       "description": "Used to treat broken bones."
+    },
+    {
+      "id": 61,
+      "title": "Scimitar",
+      "price": 140,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "2d4+1",
+      "description": "A light curved blade, ideal for quick slashes."
+    },
+    {
+      "id": 62,
+      "title": "Katana",
+      "price": 220,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "2d6+3",
+      "description": "An extremely sharp and precise long sword."
+    },
+    {
+      "id": 63,
+      "title": "Spear",
+      "price": 90,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "2d4+2",
+      "description": "A pole weapon that allows attacking from a safer distance."
+    },
+    {
+      "id": 64,
+      "title": "Double-bladed axe",
+      "price": 280,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "3d6+1",
+      "description": "A heavy axe with two blades, devastating in combat."
+    },
+    {
+      "id": 65,
+      "title": "Flail",
+      "price": 180,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "2d6",
+      "description": "A chained weapon that can partially bypass defenses."
+    },
+    {
+      "id": 66,
+      "title": "Pirate saber",
+      "price": 160,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "2d4+2",
+      "description": "A light and agile blade, popular among sailors."
+    },
+    {
+      "id": 67,
+      "title": "Rapier",
+      "price": 170,
+      "categories": [
+        7,
+        9,
+        11
+      ],
+      "range": 1,
+      "damage": "1d8+2",
+      "description": "A thin sword focused on precision and quick thrusts."
+    },
+    {
+      "id": 68,
+      "title": "Slingshot",
+      "price": 20,
+      "categories": [
+        7,
+        10,
+        11
+      ],
+      "range": 5,
+      "damage": "1d4",
+      "description": "A simple weapon that fires small stones."
+    },
+    {
+      "id": 69,
+      "title": "Staff",
+      "price": 60,
+      "categories": [
+        8,
+        9,
+        11
+      ],
+      "range": 2,
+      "damage": "1d8",
+      "description": "A long staff used for both combat and support."
+    },
+    {
+      "id": 70,
+      "title": "Light crossbow",
+      "price": 110,
+      "categories": [
+        7,
+        10,
+        11
+      ],
+      "range": 8,
+      "damage": "1d8+1",
+      "description": "A lighter version of the crossbow, easy to handle."
+    },
+    {
+      "id": 71,
+      "title": "Boomerang",
+      "price": 45,
+      "categories": [
+        7,
+        10,
+        11
+      ],
+      "range": 6,
+      "damage": "1d6",
+      "description": "A throwing weapon that can return to the user."
     }
   ]
 }
